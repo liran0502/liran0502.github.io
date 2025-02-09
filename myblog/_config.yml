@@ -115,14 +115,19 @@ language: zh-CN
 #   type: git
 #   ### 自己的仓库地址
 #   repo: https://gitee.com/li-ran0502/liran_blogs.git
-#以下是更改代码
-url: https://liran0502.github.io
-root: /liran_blogs
+#以下是更改代码，貌似会出错
+# url: https://liran0502.github.io
+# root: /liran_blogs
+# deploy:
+#   type: git
+#   ### 自己的仓库地址
+#   # repo: git@github.com:liran0502/liran_blogs.git
+#   repo: https://github.com/liran0502/liran0502.github.io.git
+#根据csdn hexo+github教程
 deploy:
   type: git
-  ### 自己的仓库地址
-  # repo: git@github.com:liran0502/liran_blogs.git
-  repo: https://github.com/liran0502/liran0502.github.io.git
+  repository: http://github.com/liran0502/liran0502.github.io.git
+  branch: main
   
 #这一小段是源文件的内容
 # # Deployment
