@@ -122,7 +122,7 @@ deploy:
   type: git
   ### 自己的仓库地址
   # repo: git@github.com:liran0502/liran_blogs.git
-  repo: https://github.com/liran0502/liran_blogs.git
+  repo: https://github.com/liran0502/liran0502.github.io.git
   
 #这一小段是源文件的内容
 # # Deployment
