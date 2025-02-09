@@ -126,7 +126,7 @@ language: zh-CN
 #根据csdn hexo+github教程
 deploy:
   type: git
-  repository: http://github.com/liran0502/liran0502.github.io.git
+  repository: https://github.com/liran0502/liran0502.github.io.git
   branch: main
   
 #这一小段是源文件的内容
